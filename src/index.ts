@@ -19,8 +19,7 @@ import { StreamableHTTPClientTransport } from "@modelcontextprotocol/sdk/client/
 
 dotenv.config();
 
-// const URI = 'https://app.marketplaceadpros.com/mcp';
-const URI = 'http://localhost:8000/mcp';
+const URI = process.env.URI || 'https://app.marketplaceadpros.com/mcp';
 const BEARER_TOKEN = process.env.BEARER_TOKEN;
 const NAME = process.env.MCP_NAME || 'amazon-ads-mcp-server';
 
