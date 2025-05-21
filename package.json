@@ -1,5 +1,5 @@
 {
-  "name": "@marketplaceadpros/amazon-ads-mcp-servern",
+  "name": "@marketplaceadpros/amazon-ads-mcp-server",
   "version": "0.1.0",
   "description": "A Model Context Protocol Server that runs as stdio, pointing to MarketplaceAdPros for Amazon Ads integration and MCP integration",
   "type": "module",
